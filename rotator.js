@@ -1,6 +1,5 @@
 const leftWords = ['Developer', 'Designer', 'Programmer'];
 let leftCurrentWordIndex = 0;
-let rightCurrentWordIndex = 0;
 
 // Speed of the transition (in milliseconds)
 const transitionSpeed = 50;
@@ -31,10 +30,8 @@ function rotateWords(wordRotatorId, words, currentWordIndex) {
 // Show first words on load
 window.onload = function () {
   document.getElementById('word-rotator-left').textContent = leftWords[0];
-  document.getElementById('word-rotator-right').textContent = rightWords[0];
 
   leftCurrentWordIndex++;
-  rightCurrentWordIndex++;
 };
 
 // Start rotating words
@@ -46,10 +43,3 @@ setInterval(() => {
   );
 }, 2000);
 
-setInterval(() => {
-  rightCurrentWordIndex = rotateWords(
-    'word-rotator-right',
-    rightWords,
-    rightCurrentWordIndex
-  );
-}, 2500);

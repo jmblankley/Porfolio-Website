@@ -1,0 +1,7 @@
+Fix styling for social links in contact section.
+
+Add functionality to message form.
+
+Build boilerplate code for project pages.
+
+!! Think about changing to a React app so you can update projects as you finish new ones.
