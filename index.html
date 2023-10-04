@@ -197,34 +197,17 @@
         </div>
         <div class="message">
           <h3>Send me a message!</h3>
-          <form id="contact-form">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
-            />
+          <form action="send_email.php" method="post">
+            <!-- Your form inputs here -->
+            <input type="text" name="name" placeholder="Name" required />
             <input
               type="text"
               name="phone"
-              id="phone"
               placeholder="Phone Number"
               required
             />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Message"
-              required
-            ></textarea>
+            <input type="text" name="email" placeholder="Email" required />
+            <input type="text" name="message" placeholder="Message" required />
             <button type="submit">Send</button>
           </form>
         </div>
