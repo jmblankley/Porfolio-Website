@@ -198,34 +198,15 @@
         <div class="message">
           <h3>Send me a message!</h3>
           <form method="POST" action="/api/submit.js">
+            <input type="text" name="name" placeholder="Name" required />
             <input
-              id="i-name"
-              type="text"
-              name="name"
-              placeholder="Name"
-              required
-            />
-            <input
-              id="i-phone"
               type="text"
               name="phone"
               placeholder="Phone Number"
               required
             />
-            <input
-              id="i-email"
-              type="text"
-              name="email"
-              placeholder="Email"
-              required
-            />
-            <input
-              id="i-message"
-              type="text"
-              name="message"
-              placeholder="Message"
-              required
-            />
+            <input type="text" name="email" placeholder="Email" required />
+            <input type="text" name="message" placeholder="Message" required />
             <button type="submit">Send</button>
           </form>
         </div>
