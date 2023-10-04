@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $smtp_server = "smtp.sendgrid.net";
     $smtp_port = 587; // Usually 587 for TLS
     $smtp_username = "apikey";
-    $smtp_password = "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";
+    $smtp_password = "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";
     
     // Recipient email address
     $to_email = "jmblankley@outlook.com";
