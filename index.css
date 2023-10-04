@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   /*Color Variables*/
   --black: #2f2f2f;
   --brand: #ab6242;
   /*Font Variables*/
-  --fontMain: 'Montserrat', sans-serif;
+  --fontMain: "Montserrat", sans-serif;
 }
 
 /********************/
@@ -259,6 +259,10 @@ ul {
   padding: 50px;
   transition: 0.2s ease;
 }
+
+.white-card a {
+  color: var(--black);
+}
 .white-card:hover {
   cursor: pointer;
   background-color: var(--brand);
@@ -364,10 +368,7 @@ ul {
 .header a {
   transition: 0.2s ease;
 }
-.header a:hover {
-  transition: 0.2s ease;
-  opacity: 0;
-}
+
 .project-info {
   display: flex;
   flex-direction: column;
@@ -387,6 +388,44 @@ ul {
 }
 .project-info p {
   margin-bottom: 2vw;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 40px;
+}
+footer a {
+  color: var(--black);
+}
+.backToHome {
+  margin-inline: 20px;
+  transition: 0.2s ease;
+  width: fit-content;
+  box-sizing: border-box;
+  fill: white;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding-inline: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.backToHome:hover {
+  color: var(--brand);
+  box-sizing: border-box;
+  box-shadow: 10px 10px var(--brand);
+  transition: 0.2s ease;
+  fill: var(--brand);
+  border: 2px solid var(--brand);
+}
+.backToHome:hover img {
+  filter: invert(38%) sepia(76%) saturate(412%) hue-rotate(333deg)
+    brightness(97%) contrast(84%);
+  transition: 0.2s ease;
 }
 /* PROJECT PAGE */
 /****************/

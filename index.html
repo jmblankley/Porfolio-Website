@@ -117,7 +117,7 @@
       <h1 class="dark-title">My <span class="orange-text">work.</span></h1>
       <div class="project-cards">
         <div class="dark-card">
-          <a href="./projectpages/blankpage.html" target="_blank">
+          <a href="./projectpages/subzero.html">
             <div class="text">
               <h3>Subzero Software Website</h3>
               <p>
@@ -127,16 +127,19 @@
               <img src="images/arrow-right-short.svg" alt="" /></div
           ></a>
         </div>
+
         <div class="white-card">
-          <div class="text">
-            <h3>The Casters Companion App</h3>
-            <p>
-              Independently conceptualized, designed, developed, and deployed
-              "The Casters Companion," a Dungeons and Dragons (DnD) character
-              companion app . . .
-            </p>
-            <img src="images/arrow-right-short.svg" alt="" />
-          </div>
+          <a href="./projectpages/casterscompanion.html">
+            <div class="text">
+              <h3>The Casters Companion App</h3>
+              <p>
+                Independently conceptualized, designed, developed, and deployed
+                "The Casters Companion," a Dungeons and Dragons (DnD) character
+                companion app . . .
+              </p>
+              <img src="images/arrow-right-short.svg" alt="" />
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -194,11 +197,40 @@
         </div>
         <div class="message">
           <h3>Send me a message!</h3>
-          <form>
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Phone Number" />
-            <input type="text" placeholder="Email" />
-            <input type="text" placeholder="Message" /><button>Send</button>
+          <form
+            method="POST"
+            action="/api/submit"
+            enctype="multipart/form-data"
+          >
+            <input
+              id="i-name"
+              type="text"
+              name="name"
+              placeholder="Name"
+              required
+            />
+            <input
+              id="i-phone"
+              type="text"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <input
+              id="i-email"
+              type="text"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              id="i-message"
+              type="text"
+              name="message"
+              placeholder="Message"
+              required
+            />
+            <button type="submit">Send</button>
           </form>
         </div>
       </div>
