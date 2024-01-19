@@ -1,4 +1,4 @@
-const leftWords = ['Developer', 'Designer', 'Programmer'];
+const leftWords = ['Designer', 'Developer', 'Programmer'];
 let leftCurrentWordIndex = 0;
 
 // Speed of the transition (in milliseconds)
