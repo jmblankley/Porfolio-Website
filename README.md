@@ -11,3 +11,7 @@ This is the code for my portfolio website. It is nothing special, just html, css
 ## Technologies Used
 
 Javascript, HTML, CSS
+
+## Link to the Website
+
+https://calm-pebble-021035910.4.azurestaticapps.net/
