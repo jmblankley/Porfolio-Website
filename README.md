@@ -1,4 +1,4 @@
-# Conversion Program
+# My Portfolio Website
 
 **Author:** Joshua Blankley
 
@@ -6,7 +6,7 @@
 
 ## Project Description
 
-This is the code for my portfolio website. I am keeping this public to show my skill with html, css, and vanilla javascript.
+This is the code for my portfolio website. It is nothing special, just html, css, and vanilla javascript.
 
 ## Technologies Used
 
